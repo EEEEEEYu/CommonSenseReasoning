@@ -1,2 +1,278 @@
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: missed the train. The end.","hidden_event":"missed the train"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["train","missed"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: forgot wedding anniversary. The end.","hidden_event":"forgot wedding anniversary"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["forgot","wedding","anniversary"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
+{
+  "story": {
+    "text": "Amidst the bustle of everyday life, the sun set on another seemingly ordinary day for the happy couple, John and Maria. Yet, as they settled down for dinner, an unspoken tension filled the room. Maria's gentle reminders of their shared anniversary date went unacknowledged, leaving her feeling a pang of disappointment. John, lost in the maze of work deadlines and daily chores, had forgotten their most cherished anniversary. The once lively home now echoed with an eerie silence, as the couple found themselves in an unexpected standstill, their bond momentarily strained.",
+    "hidden_event": "forgot wedding anniversary"
+  },
+  "gold_semantics": {
+    "agent": [
+      "John",
+      "John (forgot)"
+    ],
+    "predicate": [
+      "forgot anniversary date",
+      "left Maria feeling a pang of disappointment"
+    ],
+    "patient": [
+      "Maria",
+      "their bond"
+    ],
+    "recipient": [],
+    "location": [],
+    "time": [],
+    "instrument": []
+  },
+  "banlist": [
+    "wedding",
+    "anniversary",
+    "forgot"
+  ],
+  "dialogue": {
+    "turns": [
+      "Speaker A: It's been an eventful day, hasn't it? I've noticed that things between us have felt a bit off lately. I believe we've both had our minds preoccupied with various matters.\n\nSpeaker B: Yes, indeed. It seems life has been keeping us both quite busy. But I've noticed something more, John. I've been reminded of an important date, and I believe it's one that holds significant meaning for us.\n\nSpeaker A: I see. And what could that be?\n\nSpeaker B: It's the day we... shall we say, celebrated the beginning of our journey together.\n\nSpeaker A: Our journey together, you mean our relationship?\n\nSpeaker B: Yes, that's right. It's been a while since we last honored that day. I've been feeling a bit sad about it, as it holds a special place in my heart.\n\nSpeaker A: I understand. I've been so focused on work and other responsibilities that I've neglected to acknowledge that day. I'm truly sorry for that oversight.\n\nSpeaker B: It",
+      "It's been a while since we've recognized a milestone in our relationship. I apologize for my oversight. I've been preoccupied with various commitments, and it seems I've let that important date slip my mind. I'm truly sorry for any disappointment or sadness this may have caused you. Let's find a way to make it up to you and celebrate our shared history.",
+      "John, I understand how crucial it is for us to acknowledge and celebrate the significant moments in our relationship. I deeply regret that I failed to remember our special day this year. I've been so engrossed in my professional and personal responsibilities that I lost track of time. I sincerely apologize for any unhappiness or feelings of neglect this may have brought about. I'd like to make amends and create a memorable experience for us to commemorate our relationship and the precious memories we've built together. How about we plan a special surprise for both of us? What are some things that you enjoy and would appreciate as a gesture of my apologies?",
+      "John, I'm glad you've acknowledged the importance of recognizing and cherishing the special moments in our partnership. Your sincere apology is appreciated, and I believe that focusing on creating new memories together can help strengthen our bond. Some things I enjoy could be a quiet dinner at our favorite restaurant, a day spent exploring a new place, or even a simple at-home date night with a movie and our favorite comfort foods. What are your thoughts, dear?"
+    ]
+  },
+  "recovery": {
+    "predicted_semantics": {
+      "agent": [
+        "Speaker A",
+        "Speaker B"
+      ],
+      "predicate": [
+        "have neglected to acknowledge a milestone in our relationship",
+        "have been preoccupied with various matters",
+        "have forgotten an important date",
+        "apologize for an oversight",
+        "plan to make amends",
+        "express regret for neglecting a special day"
+      ],
+      "patient": [
+        "our journey together",
+        "our relationship",
+        "a special day",
+        "significant moments in our partnership"
+      ],
+      "recipient": [],
+      "location": [],
+      "time": [],
+      "instrument": []
+    }
+  },
+  "metrics": {
+    "agent_precision": 0.0,
+    "agent_recall": 0.0,
+    "agent_f1": 0.0,
+    "predicate_precision": 0.0,
+    "predicate_recall": 0.0,
+    "predicate_f1": 0.0,
+    "patient_precision": 0.0,
+    "patient_recall": 0.0,
+    "patient_f1": 0.0,
+    "recipient_precision": 0.0,
+    "recipient_recall": 0.0,
+    "recipient_f1": 0.0,
+    "location_precision": 0.0,
+    "location_recall": 0.0,
+    "location_f1": 0.0,
+    "time_precision": 0.0,
+    "time_recall": 0.0,
+    "time_f1": 0.0,
+    "instrument_precision": 0.0,
+    "instrument_recall": 0.0,
+    "instrument_f1": 0.0,
+    "micro_precision": 0.0,
+    "micro_recall": 0.0,
+    "micro_f1": 0.0
+  }
+}
+{
+  "story": {
+    "text": "Amidst the bustling morning crowd, hearts pounded in unison as the clock struck five past eight. A young woman, her eyes glued to her phone, missed the train's last call. Her face fell as the train pulled away, leaving her stranded on the platform, her dreams of a productive day crumbling like the grains of sand slipping through her fingers.",
+    "hidden_event": "missed the train"
+  },
+  "gold_semantics": {
+    "agent": [
+      "young woman"
+    ],
+    "predicate": [
+      "had dreams of a productive day",
+      "missed the train's last call",
+      "was left stranded"
+    ],
+    "patient": [
+      "her dreams",
+      "the train"
+    ],
+    "recipient": [],
+    "location": [],
+    "time": [],
+    "instrument": []
+  },
+  "banlist": [
+    "missed",
+    "train"
+  ],
+  "dialogue": {
+    "turns": [
+      "Speaker A: Good morning Speaker B! Isn't it amazing how the hustle and bustle of the city comes alive as the sun rises? I was just admiring the scene at the station this morning.\n<|user|>\nSpeaker B: Yes, it's quite a sight isn't it? But have you ever experienced the disappointment of not making it onto a departing transport?\n<|assistant|>\nSpeaker A: Oh, I can imagine the feeling. It's almost like watching an opportunity slip away, isn't it? But even in those moments, there's always a chance to adapt and find another solution.\n<|user|>\nSpeaker B: Absolutely. It's important to remember that one setback doesn't define the entire day. Sometimes, the unexpected can lead to unexpected opportunities.\n<|assistant|>\nSpeaker A: Exactly. And sometimes, those unexpected opportunities can lead to even greater success than we had initially planned for. It's all about maintaining a positive attitude and being open to change.\n<|user|>\nSpeaker B: I couldn't agree more. It's a",
+      "Speaker A: It's truly a reminder that life is full of twists and turns, and it's how we respond to them that matters most. It's not about missing an opportunity, but rather about seizing the next one that comes along.",
+      "Speaker B: Absolutely, Speaker A. You're right. It's important to keep a positive perspective, even when circumstances seem unfavorable. The universe has a way of presenting us with opportunities, and sometimes, it's just a matter of recognizing them when they come our way. It's all about adaptability and resilience.",
+      "Speaker B: Indeed, Speaker A. Life's rhythm can be unpredictable at times. Yet, it's in these moments that we can discover hidden potentials within ourselves. Maybe this unexpected delay could lead to an unexpected encounter or a fresh perspective on an ongoing project. Let's keep an open mind and embrace the serendipity of the situation."
+    ]
+  },
+  "recovery": {
+    "predicted_semantics": {
+      "agent": [
+        "Speaker A",
+        "Speaker B"
+      ],
+      "predicate": [
+        "admire the scene at the station",
+        "experience disappointment",
+        "imagine feeling",
+        "remember",
+        "absolutely agree",
+        "maintain a positive attitude",
+        "be open to change",
+        "recognize opportunities",
+        "embrace serendipity"
+      ],
+      "patient": [],
+      "recipient": [],
+      "location": [],
+      "time": [],
+      "instrument": []
+    }
+  },
+  "metrics": {
+    "agent_precision": 0.0,
+    "agent_recall": 0.0,
+    "agent_f1": 0.0,
+    "predicate_precision": 0.0,
+    "predicate_recall": 0.0,
+    "predicate_f1": 0.0,
+    "patient_precision": 0.0,
+    "patient_recall": 0.0,
+    "patient_f1": 0.0,
+    "recipient_precision": 0.0,
+    "recipient_recall": 0.0,
+    "recipient_f1": 0.0,
+    "location_precision": 0.0,
+    "location_recall": 0.0,
+    "location_f1": 0.0,
+    "time_precision": 0.0,
+    "time_recall": 0.0,
+    "time_f1": 0.0,
+    "instrument_precision": 0.0,
+    "instrument_recall": 0.0,
+    "instrument_f1": 0.0,
+    "micro_precision": 0.0,
+    "micro_recall": 0.0,
+    "micro_f1": 0.0
+  }
+}
+{
+  "story": {
+    "text": "In the stillness of the moonlit night, as the soft lullaby of crickets filled the air, Sarah reached out to grab the last remnant of her grandmother's rose-tinted vase. It was a family heirloom, fragile and beautiful, a symbol of love passed down through generations. But as she gently lifted it, the vase shattered, its delicate pieces scattering across the tiled floor. A gasp escaped her lips as the memories of the past came crashing down, the once cherished vase now a reminder of her own fragility and the fleeting nature of the world around her.",
+    "hidden_event": "broke a vase"
+  },
+  "gold_semantics": {
+    "agent": [
+      "Sarah"
+    ],
+    "predicate": [
+      "reached out",
+      "grabbed",
+      "lifted",
+      "shattered"
+    ],
+    "patient": [
+      "the last remnant of her grandmother's rose-tinted vase"
+    ],
+    "recipient": [],
+    "location": [
+      "the tiled floor"
+    ],
+    "time": [],
+    "instrument": []
+  },
+  "banlist": [
+    "broke",
+    "vase"
+  ],
+  "dialogue": {
+    "turns": [
+      "Speaker A: In the tranquil silence of the night, the soothing melody of crickets resonated in the air. Sarah reached out, her fingers inching closer to an antique family treasure. This delicate and captivating relic, reminiscent of a rose-tinted past, had been meticulously preserved and passed down through generations. As she gently attempted to lift it, it slipped from her grasp, its shimmering fragments skittering across the floor. A surprised intake of breath left her lips as the remnants of her grandmother's legacy came to mind, a poignant reminder of her own vulnerability and the ephemeral nature of the world around her. Speaker B, have you ever had an experience where an object from the past held a significant emotional connection for you?",
+      "Indeed, Speaker A. I recall an instance where an object from yesteryears held immense sentimental value for me. It was a small, intricately designed locket, adorned with the initials of my great-grandparents. The locket had been carefully safeguarded and passed down through generations. One day, as I delicately held it in my hands, it slipped away, its miniature pieces scattering like grains of sand. The sensation of loss was palpable, but the memories it evoked remained intact, serving as a poignant reminder of the enduring connections that bind us to our past.",
+      "Speaker A, it's fascinating how objects from our past can evoke such deep-seated emotions within us. I remember an item that held significant sentimental value for me, a locket, intricately crafted and emblazoned with the monogram of my ancestors. This treasure had been meticulously preserved and passed down the family line. One fateful day, while admiring its exquisite detailing, it slipped from my grasp, scattering its tiny pieces far and wide. The feeling of loss was profound, yet the memories it evoked remained vivid, serving as a poignant reminder of the indelible bonds that tether us to our heritage.",
+      "Absolutely, Speaker A. I resonate deeply with your poignant recollection of the locket and the emotional connection it held for you. For me, there was an item that bore a similar significance, a beautifully embroidered tapestry. This intricate piece of art, a testament to the skill of my forebears, had been lovingly maintained and bequeathed from one generation to another. One serene afternoon, as I traced the intricate patterns, my fingers slipped, and the tapestry came undone, unraveling into countless threads. The sensation of loss was palpable, yet the memories it evoked remained undiminished, serving as a poignant reminder of the enduring legacy we inherit from our past."
+    ]
+  },
+  "recovery": {
+    "predicted_semantics": {
+      "agent": [
+        "Speaker A",
+        "Speaker B"
+      ],
+      "predicate": [
+        "had an experience",
+        "recalled an instance",
+        "had been meticulously preserved",
+        "had been passed down through generations",
+        "slipped from one's grasp",
+        "scattered",
+        "evoked deep-seated emotions",
+        "served as a poignant reminder"
+      ],
+      "patient": [
+        "an object from the past",
+        "a relic",
+        "a family treasure",
+        "an antique relic",
+        "an intricately designed locket",
+        "a beautifully embroidered tapestry",
+        "memories"
+      ],
+      "recipient": [],
+      "location": [
+        "the silence of the night",
+        "one's hands"
+      ],
+      "time": [
+        "the tranquil silence of the night",
+        "one day",
+        "one fateful day",
+        "one serene afternoon"
+      ],
+      "instrument": []
+    }
+  },
+  "metrics": {
+    "agent_precision": 0.0,
+    "agent_recall": 0.0,
+    "agent_f1": 0.0,
+    "predicate_precision": 0.0,
+    "predicate_recall": 0.0,
+    "predicate_f1": 0.0,
+    "patient_precision": 0.0,
+    "patient_recall": 0.0,
+    "patient_f1": 0.0,
+    "recipient_precision": 0.0,
+    "recipient_recall": 0.0,
+    "recipient_f1": 0.0,
+    "location_precision": 0.0,
+    "location_recall": 0.0,
+    "location_f1": 0.0,
+    "time_precision": 0.0,
+    "time_recall": 0.0,
+    "time_f1": 0.0,
+    "instrument_precision": 0.0,
+    "instrument_recall": 0.0,
+    "instrument_f1": 0.0,
+    "micro_precision": 0.0,
+    "micro_recall": 0.0,
+    "micro_f1": 0.0
+  }
+}
