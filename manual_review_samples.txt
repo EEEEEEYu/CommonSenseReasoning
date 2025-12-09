@@ -1,270 +1,289 @@
 --- Sample 1 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: got stuck in an elevator. The end.
+Story: In the quiet town of Meadowgrove, where the most exciting event was the annual daisy festival, life was simple and predictable. But one sunny morning, the local bakery's cash register rang with an unexpected jingle. Old Mr. Johnson, the baker, held the lottery ticket in trembling hands. His eyes widened in disbelief as he read the words: "You've won the jackpot!" Overnight, Meadowgrove was transformed into a bustling town, filled with dreams and possibilities, as the news of Mr. Johnson's windfall spread like wildfire.
 Gold: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
+  "agent": [
+    "Old Mr. Johnson"
+  ],
+  "instrument": [],
+  "location": [
+    "Meadowgrove"
+  ],
+  "patient": [
+    "lottery ticket"
+  ],
+  "predicate": [
+    "held",
+    "won the jackpot"
+  ],
+  "recipient": [],
+  "time": [
+    "one sunny morning"
+  ]
 }
 Dialogue: [
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O..."
+  "Speaker A: (smiling) Isn't it fascinating how the unexpected can completely alter the course of things in our small town, Speaker B?\n<|user|>\nSpeaker B: Indeed, Speaker A. It's as if a hidden treasure was unearthed, isn't it?\n<|assistant|>\nSpeaker A: Yes, absolutely. And it all started with an unassuming event at the local bakery. You know, the one where Mr. Johnson sells his delicious pastries?\n<|user|>\nSpeaker B: Ah, yes. The news of his discovery has certainly brought a new energy to our town.\n<|assistant|>\nSpeaker A: Yes, it has. It's amazing how one event can spark so much hope and excitement, isn't it?\n<|user|>\nSpeaker B: Absolutely, Speaker A. It's a reminder that even the most ordinary places can hold extraordinary surprises.\n<|assistant|>\nSpeaker A: Yes, I couldn't agree more. And it's not just the townsfolk who are affected, but also the",
+  "Speaker B: I understand, Speaker A. Let's just say that Mr. Johnson's discovery has brought about a significant change in our community. It's a windfall of positive energy and possibilities.",
+  "Indeed, Speaker B. It seems that Mr. Johnson's unexpected find has ignited a wave of excitement and optimism in our town. The discovery has brought about a transformation, leading to a surge of energy and new possibilities for all of us.",
+  "It's truly fascinating, isn't it, Speaker A? The turn of events in our quaint town has undeniably stirred a sense of anticipation and renewal among us. The discovery, let's call it a fortunate find, has set in motion a wave of enthusiasm and dreams for the future. It's as if Meadowgrove has been reborn, brimming with energy and new prospects for everyone."
 ]
 Recovered: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
+  "agent": [
+    "Speaker A",
+    "Speaker B"
+  ],
+  "instrument": [],
+  "location": [
+    "local bakery"
+  ],
+  "patient": [
+    "Mr. Johnson",
+    "a hidden treasure"
+  ],
+  "predicate": [
+    "find",
+    "discover"
+  ],
+  "recipient": [],
+  "time": []
 }
 
 --- Sample 2 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: broke a vase. The end.
+Story: Amidst the bustling office building, the clock struck five, and employees began their hurried descent to the ground floor. But for one unlucky soul, the elevator doors refused to budge, trapping him between the floors. As the minutes ticked by, the elevator filled with an eerie stillness, punctuated only by the soft hum of the failing machinery. The man's heart pounded in his chest as he pressed the emergency button, praying for a swift rescue, while the rest of the world continued blissfully oblivious to his predicament.
 Gold: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
+  "agent": [
+    "he"
+  ],
+  "instrument": [],
+  "location": [
+    "elevator"
+  ],
+  "patient": [
+    "emergency button"
+  ],
+  "predicate": [
+    "prayed"
+  ],
+  "recipient": [
+    "a swift rescue"
+  ],
+  "time": [
+    "minutes ticked by"
+  ]
 }
 Dialogue: [
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O..."
+  "Speaker A: It's quite late in the day, isn't it? I can't help but notice the hustle and bustle around us as we wind down for the day. But I've noticed something unusual happening in one of the chambers nearby. Have you seen a situation where an individual finds themselves in an enclosed space, unable to leave, despite their best efforts?\n\nSpeaker B: I believe so, yes. It's quite a common occurrence, though usually not in such dramatic fashion. I recall an incident where someone was unable to exit a room due to a malfunctioning door. They were quite distressed, but fortunately, help arrived shortly after.\n\nSpeaker A: Ah, I see. I'm thinking of a specific scenario where an individual found themselves in an unfortunate predicament, unable to leave a confined area. They were rather isolated from the rest of the world, with only the faint hum of machinery for company. I'm curious, how did they handle the situation?\n\nSpeaker B: Well, they followed proper procedures and alerted the authorities about their predicament. They remained calm and composed, despite the unsettling circumstances. It",
+  "Speaker B: In such a situation, the individual would typically use the communication system within the chamber to reach out for assistance. They would remain calm and focused, assessing their surroundings and conserving their resources. It's essential to remember that even in challenging circumstances, maintaining a clear and level head can significantly improve the chances of a favorable outcome.",
+  "Speaker A: Absolutely, Speaker B. In the given scenario, the person would indeed utilize the in-chamber communication system to seek aid. Remaining composed and attentive to their surroundings is crucial in such a circumstance. It's essential to keep our minds focused on potential solutions and not get overwhelmed by the situation. By maintaining a clear and level head, we can potentially turn an unfavorable situation into a manageable one.",
+  "Speaker B: You're absolutely right, Speaker A. In this particular situation, the individual would likely use the built-in communication system to request assistance. It's essential to remain calm and focused, taking note of our surroundings while considering potential alternatives. By maintaining a level head, we can potentially transform a challenging scenario into a more manageable one."
 ]
 Recovered: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
+  "agent": [
+    "Speaker A",
+    "Speaker B"
+  ],
+  "instrument": [],
+  "location": [
+    "chamber"
+  ],
+  "patient": [
+    "unusual situation",
+    "individual in enclosed space",
+    "malfunctioning door"
+  ],
+  "predicate": [
+    "discuss",
+    "describe"
+  ],
+  "recipient": [
+    "Speaker B"
+  ],
+  "time": [
+    "late day"
+  ]
 }
 
 --- Sample 3 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: adopted a stray cat. The end.
+Story: Amidst the bustle of everyday life, time slipped away from Alex and Emma's marriage like sand through an hourglass. One sunny morning, as Alex sipped his coffee, a pang of guilt nudged him. He glanced at the calendar, his eyes widening in disbelief. Today was their anniversary, the day they had pledged their eternal love to each other. Years ago, it seemed like a lifetime away, they had exchanged heartfelt vows beneath a canopy of blossoming flowers. Now, the anniversary crept up on them unnoticed, a painful reminder of their neglect. They promised to make it up, to restore the magic that once filled their home. But for now, the bitter taste of forgotten promises lingered.
 Gold: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
+  "agent": [
+    "Alex"
+  ],
+  "instrument": [
+    "the calendar"
+  ],
+  "location": [
+    "their home"
+  ],
+  "patient": [
+    "Alex and Emma's marriage"
+  ],
+  "predicate": [
+    "time slipped away from",
+    "Alex and Emma's marriage",
+    "crept up on them"
+  ],
+  "recipient": [],
+  "time": [
+    "everyday life",
+    "a sunny morning",
+    "today",
+    "years ago"
+  ]
 }
 Dialogue: [
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O..."
+  "Speaker A: It's quite astonishing how time flies, isn't it? Speaker B? I was reminiscing about a particular moment, one that holds a special place in my heart. Do you remember that beautiful morning when the sun painted the sky with hues of orange and pink? We made a promise, a commitment to each other.\nSpeaker B: Yes, I do recall that day. It was a day filled with hope and joy. But what's on your mind, Speaker A? Is there something specific you'd like to share?\nSpeaker A: Well, I was just taken aback when I realized that we've let that day slip by unnoticed. It's not about the passing of time, but the fact that we didn't acknowledge the significance of that day. It's a reminder of our shared history and the promises we made.\nSpeaker B: I see. It's easy to get lost in the daily routines and responsibilities. But it's important to remember the moments that matter, isn't it? We should make a conscious effort to celebrate those moments, to acknowledge the promises we've made to each other. What do you",
+  "Absolutely, Speaker A. It's essential to cherish the memories and the commitments we've made. Let's make a point to recognize and honor those moments in our lives, rather than letting them slip away unnoticed. It's not about dwelling on the past, but about appreciating the journey and the bond we share. What do you think, Speaker B?",
+  "I couldn't agree more, Speaker A. It's crucial to acknowledge and value the significant milestones in our lives. Let's not let these moments pass us by unnoticed. Instead, let's celebrate the journey and the love we've shared thus far. What are your thoughts, Speaker A?",
+  "Indeed, Speaker B, it's essential not to let important milestones go unnoticed in our lives. Let's cherish the memories we've made and look forward to creating new ones. It's all about appreciating the journey and the love we've nurtured between us, isn't it? What are your thoughts on this, Speaker B?"
 ]
 Recovered: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
+  "agent": [
+    "Speaker A",
+    "Speaker B"
+  ],
+  "instrument": [],
+  "location": [],
+  "patient": [
+    "a particular moment",
+    "the significance of that day",
+    "the journey",
+    "the bond they share",
+    "milestones in their lives",
+    "the love they've shared"
+  ],
+  "predicate": [
+    "remember",
+    "acknowledge",
+    "celebrate",
+    "honor",
+    "cherish"
+  ],
+  "recipient": [],
+  "time": [
+    "a beautiful morning",
+    "that day"
+  ]
 }
 
 --- Sample 4 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: cooked a bad meal. The end.
+Story: In the hushed stillness of the old Victorian mansion, the delicate sound of shattering glass echoed through the once grand hallway. A gust of wind, unnoticed by all, had swept into the room, its force enough to topple the antique vase perched precariously on the weathered window sill. The vase, a family heirloom passed down through generations, now lay in shattered pieces at the feet of its latest caretaker. With a sigh and a heavy heart, she began the arduous task of cleaning up the fragments, vowing to be more mindful of her surroundings and the priceless relics that adorned her home.
 Gold: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
+  "agent": [
+    "a gust of wind"
+  ],
+  "instrument": [],
+  "location": [
+    "the old Victorian mansion",
+    "the once grand hallway",
+    "the weathered window sill",
+    "the feet"
+  ],
+  "patient": [
+    "the antique vase",
+    "it"
+  ],
+  "predicate": [
+    "shattered",
+    "toppled"
+  ],
+  "recipient": [],
+  "time": []
 }
 Dialogue: [
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O..."
+  "Ah, Speaker B, I believe we've had an unexpected turn of events in the grand old mansion, haven't we? I do hope nothing was harmed in the process. I've noticed a certain item, a rather beautiful antique, seems to have met with an untimely end. It's quite a shame, really. Perhaps we should tread more carefully in the future to ensure the preservation of our heritage. Would you agree?",
+  "Indeed, Speaker A, it seems we've encountered an unforeseen incident. I concur that the delicate item in question appears to have suffered some damage. However, it's important to remember that even the slightest breeze can carry unintended consequences. Let us be more vigilant and attentive moving forward to prevent any further mishaps. Wouldn't you agree, Speaker B?",
+  "Absolutely, Speaker A. It's clear that the recent occurrence serves as a gentle reminder for us to exercise greater caution. The fragile beauty we've been entrusted with can be easily disturbed, as was evident with the unfortunate incident involving the treasured artifact. Let us commit to being more mindful and observant in the future to ensure the preservation of our cherished possessions. I'm here to support you in this endeavor, Speaker B.",
+  "Indeed, Speaker A. The unforeseen incident acts as a subtle yet poignant reminder for us to be more thoughtful and attentive. The exquisite trinket, an emblem of history, can be disrupted without warning. We ought to be more vigilant and careful in handling such valuable keepsakes. I'm here to help you through this process and to maintain the sanctity of our cherished inheritance. Let us work together to safeguard the legacy that has been bestowed upon us."
 ]
 Recovered: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
+  "agent": [
+    "Speaker A",
+    "Speaker B"
+  ],
+  "instrument": [],
+  "location": [],
+  "patient": [
+    "an unexpected turn of events",
+    "a delicate item in question",
+    "the fragile beauty",
+    "the delicate item",
+    "the exquisite trinket",
+    "our cherished possessions",
+    "our heritage",
+    "the valuable keepsakes",
+    "the legacy that has been bestowed upon us"
+  ],
+  "predicate": [
+    "encountered an unforeseen incident",
+    "noticed a certain item suffered some damage",
+    "recalled an unfortunate incident involving a treasured artifact",
+    "reminded each other to exercise greater caution",
+    "committed to being more mindful and observant"
+  ],
+  "recipient": [],
+  "time": []
 }
 
 --- Sample 5 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: forgot wedding anniversary. The end.
+Story: Amidst the hustle and bustle of the towering office building, a young woman named Amelia found herself trapped in the elevator between the 12th and 13th floors. The power went out, leaving her in the dark, save for the faint glow of her phone. She tried to remain calm, tapping her foot gently to the rhythm of her own breath. Unbeknownst to her, the elevator's mechanical heart was working tirelessly to free her, its gears grinding against the resistance of the malfunctioning cables. Amelia's only company were her thoughts, as she awaited the return of the lights and the gentle sway of the elevator back to her world.
 Gold: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
+  "agent": [
+    "Amelia"
+  ],
+  "instrument": [
+    "her thoughts"
+  ],
+  "location": [
+    "office building",
+    "elevator"
+  ],
+  "patient": [
+    "Amelia",
+    "herself",
+    "the elevator"
+  ],
+  "predicate": [
+    "finds herself",
+    "is trapped",
+    "waits"
+  ],
+  "recipient": [],
+  "time": [
+    "amidst the hustle and bustle",
+    "the power went out",
+    "awaited the return of the lights"
+  ]
 }
 Dialogue: [
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O..."
+  "Speaker A: It's quite a peculiar situation we have here, Speaker B. A young lady, let's call her Amelia, finds herself in an unusual predicament between the upper floors of her office building. The power seems to have taken a brief leave of absence, leaving her in a bit of a dimly lit space. She's trying to keep her spirits up, tapping her foot to the rhythm of her breath. The machinery within the building, however, is working diligently to resolve the issue. Amelia's solace comes from her thoughts as she waits for the return of the illumination and the gentle motion that will bring her back to her day.",
+  "Indeed, Speaker A, this is an intriguing scenario we're dealing with. Let's refer to Amelia's predicament as a momentary interruption between her journey from the 12th to the 13th floor. The power appears to be experiencing a brief absence, casting the area in a subdued light. Amelia is maintaining her composure, keeping time with the rhythm of her breath. Meanwhile, the inner workings of the building are striving to address the problem. Amelia finds comfort in her thoughts as she anticipates the restoration of the power and the continuation of her upward progress.",
+  "It seems Amelia is encountering an unexpected pause in her ascent from the 12th to the 13th level. The illumination within is minimal due to the temporary loss of power. Amelia's tranquility is admirable as she relies on her breath as a guide. Simultaneously, the building's infrastructure is working diligently to rectify the issue. Amelia's thoughts serve as a source of solace as she looks forward to the power's return and the resumption of her upward journey.",
+  "It appears Amelia's journey between the 12th and 13th floors has experienced an interruption. The lighting is scarce due to the power failure. Amelia's composure is noteworthy as she uses her breath as a compass. Meanwhile, the building's complex machinery is striving to address the predicament. Amelia's inner monologue offers her comfort as she anticipates the restoration of the power and the continuation of her vertical progression."
 ]
 Recovered: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
-}
-
---- Sample 6 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: missed the train. The end.
-Gold: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
-}
-Dialogue: [
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O..."
-]
-Recovered: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
-}
-
---- Sample 7 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: forgot wedding anniversary. The end.
-Gold: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
-}
-Dialogue: [
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O..."
-]
-Recovered: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
-}
-
---- Sample 8 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: found a lost wallet. The end.
-Gold: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
-}
-Dialogue: [
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O..."
-]
-Recovered: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
-}
-
---- Sample 9 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: found a lost wallet. The end.
-Gold: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
-}
-Dialogue: [
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O..."
-]
-Recovered: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
-}
-
---- Sample 10 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: broke a vase. The end.
-Gold: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
-}
-Dialogue: [
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O...",
-  "Hello, I am a mock speaker. I am responding to Context: O..."
-]
-Recovered: {
-  "agent": "MockAgent",
-  "predicate": "MockAction",
-  "patient": "MockPatient",
-  "recipient": null,
-  "location": "MockPlace",
-  "time": "MockTime",
-  "instrument": null
+  "agent": [
+    "Speaker A",
+    "Amelia"
+  ],
+  "instrument": [
+    "the inner workings of the building"
+  ],
+  "location": [
+    "upper floors of her office building"
+  ],
+  "patient": [
+    "Amelia",
+    "the power"
+  ],
+  "predicate": [
+    "finds herself",
+    "experiences a momentary interruption",
+    "encounters an unexpected pause",
+    "anticipates the restoration of the power"
+  ],
+  "recipient": [],
+  "time": [
+    "a brief leave of absence"
+  ]
 }
 

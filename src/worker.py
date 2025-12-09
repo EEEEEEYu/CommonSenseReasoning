@@ -49,7 +49,8 @@ def worker_process(worker_id: int, gpu_id: int, iterations: int, model_name: str
             result: DatasetEntry = pipeline.run_single_iteration(event)
             
             if result:
-                f.write(result.model_dump_json() + "\n")
+                # User requested formatted JSON. This creates concatenated JSON objects in the file.
+                f.write(result.model_dump_json(indent=2) + "\n")
                 f.flush()
                 success_count += 1
             else:

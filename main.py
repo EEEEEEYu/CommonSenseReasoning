@@ -28,6 +28,12 @@ def main():
     
     print(f"Starting {args.num_gpus} workers. Total iterations: {args.iterations}")
 
+    # Cleanup old output files to ensure we don't read stale data
+    for i in range(args.num_gpus):
+        out_file = f"output_gpu_{i}.jsonl"
+        if os.path.exists(out_file):
+            os.remove(out_file)
+
     for i in range(args.num_gpus):
         p = multiprocessing.Process(
             target=worker_process,
@@ -49,18 +55,31 @@ def main():
             out_file = f"output_gpu_{i}.jsonl"
             if os.path.exists(out_file):
                 with open(out_file, "r") as f:
-                    for line in f:
-                        if count >= 10: break
+                    file_content = f.read().strip()
+                    if not file_content: continue
+                    
+                    decoder = json.JSONDecoder()
+                    pos = 0
+                    while pos < len(file_content) and count < 10:
                         try:
-                            data = json.loads(line)
+                            # Skip whitespace
+                            while pos < len(file_content) and file_content[pos].isspace():
+                                pos += 1
+                            if pos >= len(file_content): break
+                            
+                            data, next_pos = decoder.raw_decode(file_content, pos)
+                            pos = next_pos
+                            
                             out.write(f"--- Sample {count+1} ---\n")
                             out.write(f"Story: {data['story']['text']}\n")
-                            out.write(f"Gold: {json.dumps(data['gold_semantics'], indent=2)}\n")
-                            out.write(f"Dialogue: {json.dumps(data['dialogue']['turns'], indent=2)}\n")
-                            out.write(f"Recovered: {json.dumps(data['recovery']['predicted_semantics'], indent=2)}\n")
+                            out.write(f"Gold: {json.dumps(data['gold_semantics'], indent=2, sort_keys=True)}\n")
+                            out.write(f"Dialogue: {json.dumps(data['dialogue']['turns'], indent=2, sort_keys=True)}\n")
+                            out.write(f"Recovered: {json.dumps(data['recovery']['predicted_semantics'], indent=2, sort_keys=True)}\n")
                             out.write("\n")
                             count += 1
-                        except: pass
+                        except json.JSONDecodeError:
+                            # If parsing fails, try to skip to next possible object or stop
+                            break
             if count >= 10: break
             
     print(f"Manual review samples saved to {manual_review_file}")

@@ -63,7 +63,15 @@ class GenerationPipeline:
             raw = self.llm.generate(SYSTEM_PROMPTS["gold_extractor"], prompt)
             data = self._parse_json(raw)
             # Basic validation: check for required keys
+            # Basic validation: check for required keys
             if data and "agent" in data and "predicate" in data:
+                # Ensure they are lists (soft fix for model behavior)
+                for k in ["agent", "predicate", "patient", "recipient", "location", "time", "instrument"]:
+                    if k in data and not isinstance(data[k], list):
+                        if isinstance(data[k], str):
+                             data[k] = [data[k]]
+                        else:
+                             data[k] = []
                 return data
         # Return empty if all retries fail, will likely cause downstream error but handled by try/except
         return {}
@@ -113,7 +121,16 @@ class GenerationPipeline:
             raw = self.llm.generate(SYSTEM_PROMPTS["recovery_agent"], prompt)
             data = self._parse_json(raw)
             # Basic validation
+            # Basic validation
             if data and "agent" in data and "predicate" in data:
+                # Ensure they are lists
+                for k in ["agent", "predicate", "patient", "recipient", "location", "time", "instrument"]:
+                    if k in data and not isinstance(data[k], list):
+                         if isinstance(data[k], str):
+                             data[k] = [data[k]]
+                         else:
+                             data[k] = []
+                # Ensure we return valid matching keys for GoldSemantics
                 return data
                 
         return {}

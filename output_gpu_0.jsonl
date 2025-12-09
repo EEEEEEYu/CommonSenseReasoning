@@ -1,30 +1,477 @@
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: got stuck in an elevator. The end.","hidden_event":"got stuck in an elevator"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["got","stuck","elevator"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: broke a vase. The end.","hidden_event":"broke a vase"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["vase","broke"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: adopted a stray cat. The end.","hidden_event":"adopted a stray cat"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["cat","stray","adopted"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: cooked a bad meal. The end.","hidden_event":"cooked a bad meal"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["bad","meal","cooked"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: forgot wedding anniversary. The end.","hidden_event":"forgot wedding anniversary"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["anniversary","forgot","wedding"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: missed the train. The end.","hidden_event":"missed the train"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["train","missed"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: forgot wedding anniversary. The end.","hidden_event":"forgot wedding anniversary"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["anniversary","forgot","wedding"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: found a lost wallet. The end.","hidden_event":"found a lost wallet"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["lost","found","wallet"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: found a lost wallet. The end.","hidden_event":"found a lost wallet"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["lost","found","wallet"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: broke a vase. The end.","hidden_event":"broke a vase"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["vase","broke"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: found a lost wallet. The end.","hidden_event":"found a lost wallet"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["lost","found","wallet"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: missed the train. The end.","hidden_event":"missed the train"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["train","missed"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: forgot wedding anniversary. The end.","hidden_event":"forgot wedding anniversary"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["wedding","forgot","anniversary"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: won the lottery. The end.","hidden_event":"won the lottery"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["lottery","won"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: won the lottery. The end.","hidden_event":"won the lottery"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["lottery","won"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: cooked a bad meal. The end.","hidden_event":"cooked a bad meal"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["meal","cooked","bad"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: missed the train. The end.","hidden_event":"missed the train"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["missed","train"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: found a lost wallet. The end.","hidden_event":"found a lost wallet"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["lost","wallet","found"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: adopted a stray cat. The end.","hidden_event":"adopted a stray cat"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["cat","stray","adopted"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: cooked a bad meal. The end.","hidden_event":"cooked a bad meal"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["meal","bad","cooked"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: found a lost wallet. The end.","hidden_event":"found a lost wallet"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["lost","wallet","found"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"Once upon a time, [MOCK STORY] based on Write a story about: missed the train. The end.","hidden_event":"missed the train"},"gold_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null},"banlist":["missed","train"],"dialogue":{"turns":["Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O...","Hello, I am a mock speaker. I am responding to Context: O..."]},"recovery":{"predicted_semantics":{"agent":"MockAgent","predicate":"MockAction","patient":"MockPatient","recipient":null,"location":"MockPlace","time":"MockTime","instrument":null}},"metrics":{"field_accuracy":1.0}}
-{"story":{"text":"In the heart of the bustling city, the elegant gold elevator doors slid shut, trapping me inside with a soft, ominous ding. The lights flickered, plunging me into darkness, save for the faint glow of my phone screen. As the hours ticked by, the silence was broken only by the occasional hum of the trapped machinery, a cruel reminder of my entrapment. Time seemed to stand still as I waited, my heart echoing the rhythm of the city that had forgotten me.","hidden_event":"got stuck in an elevator"},"gold_semantics":{"agent":"I","predicate":"was trapped in an elevator","patient":"an elevator","recipient":null,"location":"a bustling city","time":null,"instrument":null},"banlist":["stuck","got","elevator"],"dialogue":{"turns":["Speaker A: In this city's pulse, an enchanting episode unfolded within an exquisite gold structure. The doors, once welcoming, sealed me in with an understated melody. The illumination waned, leaving only the gentle luminescence of my device to break the night. As the clock hands danced, the enigma of the confined space whispered tales to the silence. Time, it seemed, was a captivated spectator. How did you find yourself in this intriguing scenario, Speaker B?","I found myself engrossed in an extraordinary situation within the city's core, in a refined golden edifice. The doors, initially welcoming, closed me in with a subtle harmony. The illumination dimmed, yet my device's gentle glow pierced the darkness. As hours elapsed, the mechanical hum interjected the silence, a poignant reminder of my confinement. Time, it seemed, was an intrigued observer.","It certainly is an intriguing predicament you find yourself in, within the urban landscape's core, surrounded by a structure of gold and refinement. The doors, once inviting, have now become a boundary. The light, a beacon in the darkness, emanates only from your device. As the hours pass, the rhythmic hum of the machinery punctuates the silence, a stark reminder of your temporary isolation. Time, it seems, is a curious witness to this moment.","Indeed, the situation you find yourself in is undeniably intriguing, nestled amidst the city's vibrant core. The once open doors have transformed into an enclosure. Your only source of light is the screen of your device. The passage of hours is marked by the consistent hum of the encircling framework, a palpable presence that underscores the silence. Time, in its inexorable flow, is a silent observer to this moment."]},"recovery":{"predicted_semantics":{"agent":"the situation","predicate":"keeps a person confined in a golden structure with diminishing light, a consistent hum, and the passage of time as a silent observer.","patient":null,"recipient":"Speaker B","location":"a golden structure in the city's core","time":null,"instrument":null}},"metrics":{"field_accuracy":0.25}}
-{"story":{"text":"In the quiet solitude of a quaint neighborhood, a kind-hearted woman found an unexpected companion. Amidst the rustle of autumn leaves, a small, scruffy cat with curious emerald eyes emerged from the shadows, seeking refuge. Touched by the feline's plight, she took him in, nurturing him with warmth, love, and the promise of a forever home. From that moment on, their bond grew stronger with each passing day, filling her life with joy and companionship.","hidden_event":"adopted a stray cat"},"gold_semantics":{"agent":"a kind-hearted woman","predicate":"found and took in","patient":"a small, scruffy cat","recipient":null,"location":"in a quaint neighborhood","time":null,"instrument":null},"banlist":["cat","stray","adopted"],"dialogue":{"turns":["Speaker A: In the heart of a tranquil neighborhood, an extraordinary event unfolded. The arrival of a furry creature, not quite the common dog or bird, piqued the interest of a compassionate woman. Can you guess what it was?\n<|user|>\nSpeaker B: It sounds like it was a rather small and scruffy creature, perhaps?\n<|assistant|>\nSpeaker A: Correct, but not entirely common. It might have been mistaken for a mischievous squirrel at first glance. But as it emerged from the shadows, its true nature became apparent. This creature bore the most captivating emerald eyes that sparkled in the autumn sunlight.\n<|user|>\nSpeaker B: Oh, I see! So it wasn't an animal we're typically familiar with, but rather something quite unique.\n<|assistant|>\nSpeaker A: Precisely! The woman, moved by its plight, decided to offer it a place of respite in her home. She vowed to provide it with all the comforts it deserved, giving it a chance at a better life.\n<|user|>","Speaker B: It seems that this creature was in need of a helping hand and found a generous soul who welcomed it with open arms. By providing it with a safe haven, the woman created a beautiful friendship that blossomed day by day.","Indeed, it's heartwarming to witness such an encounter between two beings. This creature, though small and seemingly unassisted, managed to find a caring individual who extended a hand of compassion. By offering it a secure environment, she initiated an incredible connection that continued to flourish with each passing day.","It's truly amazing how life can surprise us with encounters that ultimately lead to deep-rooted relationships. In this instance, an unassuming creature, with its captivating emerald eyes, found a nurturing soul. This woman, with her generous heart, provided an environment of safety and warmth. Their bond, although unconventional, blossomed with time, enriching her life with a sense of companionship and joy."]},"recovery":{"predicted_semantics":{"agent":"Speaker A","predicate":"described a unique creature and its encounter with a compassionate woman","patient":"the compassionate woman","recipient":"the unique creature","location":"a tranquil neighborhood","time":"autumn","instrument":null}},"metrics":{"field_accuracy":0.0}}
-{"story":{"text":"In the quiet stillness of the antique shop, the soft hum of the old clock was the only companion to the dusty relics. Amidst the clutter, a young woman, her eyes reflecting a longing for treasure, stepped closer to an ornately decorated vase. Its fragile beauty beckoned her, but as her fingers brushed against it, disaster struck. With a heart-wrenching crack, the vase shattered, its shards reflecting her stunned, pained expression. The once grand vessel now lay in pieces, a testament to the fleeting nature of beauty and wealth.","hidden_event":"broke a vase"},"gold_semantics":{"agent":"a young woman","predicate":"shattered","patient":"the vase","recipient":null,"location":null,"time":null,"instrument":null},"banlist":["vase","broke"],"dialogue":{"turns":["Speaker A: In the tranquil atmosphere of the antique store, the gentle ticking of the aged clock was the only audible sound. Amidst the assortment of timeworn items, a young lady, her gaze filled with longing, approached a particularly decorative piece. Its alluring charm drew her nearer, but as her fingers grazed its surface, an unfortunate incident occurred. With a disheartening thud, the item disintegrated, its remnants mirroring her bewildered, sorrowful expression. The once magnificent piece now lay in fragments, a reminder of the ephemeral nature of charm and value. Speaker B, have you heard of any such incident in this establishment?","Indeed, Speaker A, there have been reports of similar occurrences in this very shop. Some items, when touched, have unexpectedly crumbled or disintegrated, leaving those involved in a state of pensive contemplation. The enigmatic allure of these antiques, though beautiful, seems to carry an inherent fragility.","It's fascinating how certain artifacts in this quaint establishment can evoke such deep thought and reflection. The delicate charm of these relics, as you've described, can be alluring yet elusive. Their ethereal nature, seemingly untouched, can lure one in before surprising them with a delicate fragility, as if reminding us of the impermanence of beauty and wealth.","Indeed, these intriguing relics possess an enchanting allure, don't they? Their captivating intricacy, untouched and untarnished, can draw us in with its irresistible charm. The hidden depths of their stories, waiting to be uncovered, can evoke a sense of longing and wonder. Yet, they also serve as a poignant reminder of the fleeting nature of time and the transient nature of beauty and wealth. The delicate dance between their timeless charm and their fragile existence is what makes these treasures truly unique."]},"recovery":{"predicted_semantics":{"agent":"a young lady","predicate":"disintegrates when touched","patient":"a particularly decorative piece","recipient":null,"location":null,"time":null,"instrument":null}},"metrics":{"field_accuracy":0.0}}
-{"story":{"text":"In the quiet heart of an old town, nestled between cobblestone streets and the gentle hum of evening crickets, a kind-hearted woman discovered a small, trembling creature huddled in her garden. With eyes the color of twilight and fur as soft as the first snowfall, this was no ordinary visitor. She welcomed the stray cat into her home, offering warmth, love, and a place to call her own. And so, the woman and her new feline companion began their beautiful journey of friendship and companionship.","hidden_event":"adopted a stray cat"},"gold_semantics":{"agent":"a kind-hearted woman","predicate":"discovered and welcomed","patient":"a small, trembling creature","recipient":null,"location":"her garden","time":null,"instrument":null},"banlist":["adopted","stray","cat"],"dialogue":{"turns":["Hello Speaker B, have you heard the heartwarming tale of how a compassionate woman found a unique creature in her garden recently? It's such an enchanting story! This creature, with its twilight eyes and velvety fur, is unlike anything we've ever seen before. The woman took it under her care, providing it with a safe haven and warmth. Isn't it wonderful how she's welcomed this creature into her home? They've started an extraordinary bond, it seems.","Absolutely, Speaker A, it's a truly captivating story! This compassionate lady came across a rather unusual being in her tranquil garden. Its eyes, with hues reminiscent of the evening sky, and its fur, as soft as the first snowflakes, set it apart from the ordinary. Moved by its vulnerability, she invited it into her abode, offering it a sanctuary and comfort. Their connection, it appears, is nothing short of extraordinary.","Indeed, Speaker A, it's a heartwarming tale! This benevolent woman encountered a remarkable being amidst her serene garden. Its eyes, bearing the gentle glow of twilight, and its fur, as tender as the first flurries, distinguished it from the commonplace. Touched by its fragility, she extended her hospitality, providing it with a refuge and solace. Their bond, evidently, is quite extraordinary.","Ah, Speaker A, it's truly a captivating narrative! This compassionate lady stumbled upon a truly extraordinary being, hidden in her tranquil garden. Its eyes radiated the soothing hues of twilight, and its fur was as delicate as the first whispers of snow. Moved by its vulnerability, she graciously opened her doors, allowing it to find comfort and shelter within her home. Their unique connection, it seems, is truly a sight to behold."]},"recovery":{"predicted_semantics":{"agent":"a compassionate lady","predicate":"encountered and welcomed into her home","patient":"an extraordinary being","recipient":null,"location":"her garden and home","time":null,"instrument":null}},"metrics":{"field_accuracy":0.25}}
-{"story":{"text":"In the bustling heart of the city, amidst the cacophony of honking cars and chatter of passersby, a kind stranger picked up a wallet that had fallen from an unsuspecting man's pocket. Inside, he found a driver's license bearing the name of a young father, pictures of his adorable children, and a worn photograph of an old lady with a warm smile. Touched by the thought of the joy these mementos could bring back to their rightful owner, the stranger made a promise to himself to return the wallet. But little did he know, the wallet held more than just memories; it was a ticket to an unexpected adventure, a story yet to be written.","hidden_event":"found a lost wallet"},"gold_semantics":{"agent":"a kind stranger","predicate":"picked up","patient":"a wallet","recipient":null,"location":null,"time":null,"instrument":null},"banlist":["found","lost","wallet"],"dialogue":{"turns":["Speaker A: In the throbbing core of the urban jungle, amidst the symphony of blaring horns and the lively banter of pedestrians, an unassuming individual chanced upon an article that had slipped out of another man's possession. This object, which seemed insignificant at first sight, concealed a collection of personal belongings that held a profound significance. It contained a piece of identification bearing the moniker of a devoted father, accompanied by captivating images of his cherished offspring. Furthermore, there was a vintage photograph of an elderly woman radiating an inviting smile. Stirred by the emotion these keepsakes evoked, the finder vowed to ensure their safe return to their original owner. Unbeknownst to him, this return mission would lead to an astonishing turn of events, an unwritten tale waiting to unfold. Speaker B: That's a beautiful story. It's amazing how such a simple act of kindness can lead to such unexpected outcomes. Speaker A: Indeed, it's the little things in life that often hold the greatest surprises. Just imagine, the joy that man would feel when he's reunited with these precious m","It's truly heartwarming to think about the ripple effects of a good deed. In the hustle and bustle of the city, a chance discovery unfolded a tale of human connection. This unassuming person stumbled upon a collection of items that seemed ordinary at first glance. Among these were a token of identity, bearing the title of a loving father, and evocative snapshots of his cherished children. Additionally, there was a portrait of an elderly woman, her face beaming with a radiant smile. This discovery stirred an emotional response in the finder, leading him to make a commitment to restore these treasured items to their rightful owner. Little did he know, this return journey would pave the way for an unforeseen series of events, a narrative yet to be penned down.","It's truly inspiring to witness the impact of an unplanned encounter in our busy urban setting. An individual came across a bundle of items, initially appearing commonplace. Among these trinkets was a piece of identification, granting the title of a devoted father, and vivid depictions of his dear offspring. Furthermore, there was a portrait of a senior woman, her face radiating a captivating grin. This discovery elicited a profound emotional response within the finder, motivating him to take a pledge to return these priceless keepsakes to their genuine owner. However, he remained oblivious to the fact that this return voyage would open up a new chapter, a narrative waiting to be crafted.","In the hustle and bustle of the city center, an intriguing incident unfolded. An individual chanced upon a collection of items, seemingly ordinary at first glance. Among these possessions was a badge of fatherhood, illustrated through a series of captivating snapshots of young children. Additionally, there was a photograph of an elderly woman, her face beaming with a charming smile. This discovery stirred deep emotions within the discoverer, leading him to make a commitment to restore these meaningful items to their true owner. Yet, he remained unaware that this journey of return would pave the way for an untold tale, a narrative brimming with excitement and intrigue."]},"recovery":{"predicted_semantics":{"agent":"an unassuming person","predicate":"found and committed to return","patient":"a collection of items","recipient":"the rightful owner","location":"the city center","time":null,"instrument":null}},"metrics":{"field_accuracy":0.0}}
-{"story":{"text":"In the quiet town of Meadowgrove, where dreams were as vast as the starry night sky, lived an unassuming baker named Harold. His days were filled with the aroma of freshly baked bread and the warm smiles of his loyal customers. But one fateful day, as he was kneading dough for his signature loaves, the lottery numbers were called on the radio. Harold's heart pounded in his chest as he checked his ticket, eyes widening in disbelief. He had won the jackpot. The townsfolk were stunned, their jaws dropping in awe as Harold revealed his newfound fortune. Overnight, the humble baker transformed into a generous philanthropist, using his winnings to build a community center and fund scholarships for local students. The town of Meadowgrove, once a sleepy hamlet, blossomed into a thriving hub of activity and hope, all thanks to the unexpected luck of one man.","hidden_event":"won the lottery"},"gold_semantics":{"agent":"Harold","predicate":"won the jackpot and used the money for philanthropy","patient":"the town of Meadowgrove","recipient":"the townsfolk","location":"Meadowgrove","time":null,"instrument":null},"banlist":["lottery","won"],"dialogue":{"turns":["Speaker A: Harold, my dear friend, your life has taken an extraordinary turn, hasn't it? I've noticed some significant changes in our little town lately.\n\nSpeaker B (Harold): Why do you ask, Speaker A? I've been quite preoccupied with my baking, as always.\n\nSpeaker A: Well, I've observed a newfound energy and vitality in Meadowgrove. The community center is a marvel, and the scholarships for our young students are truly inspiring.\n\nSpeaker B: Ah, you're referring to my recent endeavors. I've had this dream of giving back to the community that has supported me for so long. It's been a privilege to see it come to fruition.\n\nSpeaker A: Indeed, it's a testament to your generous spirit. But tell me, Harold, how did you manage to bring about these changes so swiftly?\n\nSpeaker B: Well, Speaker A, I've been fortunate enough to stumble upon some unexpected resources. These resources have allowed me to invest in the growth of our town and its people.\n\nSpeaker A: Un","Speaker B: I've been fortunate enough to come into some unexpected financial windfalls, Speaker A. These unexpected gains have given me the opportunity to invest in our town and its future.","Speaker A: It's truly inspiring how such unexpected financial boosts can lead to significant improvements in our community, Speaker B. Harold, the baker, is a perfect example of this transformation. His unexpected gains allowed him to invest in our town's infrastructure and education, bringing about a remarkable change in Meadowgrove.","Absolutely, Speaker A. It's fascinating how a fortunate turn of events can spark such positive change. Harold, with his newfound resources, has been able to make a substantial impact on Meadowgrove. His investments in our community's facilities and education have truly invigorated the town. It's a testament to the power of serendipitous circumstances and the generosity of an individual."]},"recovery":{"predicted_semantics":{"agent":"Harold","predicate":"brings about significant changes in Meadowgrove","patient":"Meadowgrove","recipient":null,"location":null,"time":null,"instrument":null}},"metrics":{"field_accuracy":0.4}}
-{"story":{"text":"In the quiet heart of the old town, where cobblestone streets echoed with the gentle lullaby of the evening breeze, a solitary figure paused. Cradled in his arms was a tiny, meowing bundle of fur, a stray cat he had found huddled in an abandoned alley. Its emerald eyes shimmered with curiosity as it purred softly, nestling comfortably in the warmth of his embrace. With a tender smile, he carried the cat home, ready to offer it a new life filled with love and companionship.","hidden_event":"adopted a stray cat"},"gold_semantics":{"agent":"a solitary figure","predicate":"carried a stray cat home","patient":"a stray cat","recipient":null,"location":null,"time":null,"instrument":null},"banlist":["adopted","stray","cat"],"dialogue":{"turns":["Speaker A: In the quaint part of the town, the tranquil night air carried a melodic tune through the cobblestone paths. Unexpectedly, my encounter with a small creature left me feeling quite delighted. This intriguing being, with its vibrant, expressive gaze, had made its way into my world. I held it gently, planning to extend a warm welcome to this newfound companion. What have you come across in your recent travels that brought such joy to your day? Speaker B: I was recently walking along the serene waterfront, taking in the peaceful scene when a curious creature caught my attention. It was quite small, with eyes that seemed to sparkle in the sunlight. I was moved by its gentle demeanor and decided to extend a helping hand. How did you manage to bring this creature into your presence? Speaker A: It was in the heart of the old town where I stumbled upon this enchanting being. It appeared lost and shivering in the shadows of an abandoned alley. I couldn't leave it there, so I picked it up and offered it a safe haven in my home. How did you choose to engage with this captivating creature? Speaker B: I carefully","I was captivated by its vulnerability and decided to provide it with a place of safety and care. I nurtured it back to health, enjoying the companionship it brought into my life. It's now a beloved part of my daily routine, filling my home with warmth and joy.","In the tranquil core of the ancient district, the pavement underfoot whispered soothing melodies as the twilight breeze played a gentle tune. A lone figure halted, holding in his arms a petite, mellifluous creature that had taken refuge in a deserted passageway. Its luminous eyes sparkled with wonder as it purred softly, embracing the comfort of his hold. With a heartfelt expression, he transported the creature to his residence, eager to bestow upon it a sanctuary and nourishment. It's now a cherished presence in my domestic sphere, bringing a sense of comfort and delight.","In the serene epicenter of the historical quarter, the ground beneath my feet hummed soothing cadences as the evening breeze strummed a tranquil melody. A lone figure stood still, clutching in his arms a diminutive, melodious entity that had sought refuge in a forsaken nook. Its radiant eyes gleamed with fascination as it purred softly, reveling in the security of his care. With a compassionate demeanor, he conveyed this creature to his dwelling, intent on providing it a sanctuary and sustenance. It has now become an cherished inhabitant of my personal realm, granting me a sense of solace and amusement."]},"recovery":{"predicted_semantics":{"agent":"lone figure","predicate":"picked up, transported, provided sanctuary and sustenance to","patient":"creature","recipient":null,"location":null,"time":null,"instrument":null}},"metrics":{"field_accuracy":0.0}}
-{"story":{"text":"Once upon a time in the heart of Paris, a renowned chef named Marcel, known for his exquisite culinary creations, stood before his stove with a determined look. His latest recipe, a fusion of rare spices from the Orient, was meant to be his magnum opus. However, as the aroma wafted through the kitchen, it was clear that something had gone terribly wrong. The once vibrant and inviting scent was replaced by an acrid, bitter odor. With a sinking feeling, Marcel realized that he had miscalculated the proportions of an essential ingredient. The dining room, filled with eager patrons, waited in silence as the once proud chef scrambled to salvage the disaster. The night ended not with triumph, but with Marcel promising to return, stronger and wiser, with a new creation to delight his customers.","hidden_event":"cooked a bad meal"},"gold_semantics":{"agent":"Marcel","predicate":"experienced an unexpected event with a dish","patient":"dish","recipient":null,"location":"Paris","time":"Once upon a time","instrument":null},"banlist":["meal","bad","cooked"],"dialogue":{"turns":["Speaker A: It was quite an event in the Parisian culinary scene, wasn't it, Speaker B? A renowned chef, Marcel, was preparing what was supposed to be his most innovative dish. He had meticulously blended a medley of exotic spices from the Orient. The anticipation was palpable as the delicious aroma filled the kitchen. But then, something unexpected happened.\n\nSpeaker B: Yes, indeed. The scent in the kitchen took an unexpected turn. Instead of the delightful aroma that was anticipated, an unpleasant odor filled the air.\n\nSpeaker A: That's right. Marcel, with a determined look, realized that he had made a mistake in the proportions of a crucial ingredient. The outcome was not what he had hoped for.\n\nSpeaker B: I see. So, despite all his efforts and the high expectations of his patrons, the night didn't end with a triumphant display of his culinary prowess.\n\nSpeaker A: No, it didn't. But Marcel, being the resilient chef that he is, vowed to learn from this experience and return with a new creation that would und","Speaker B: Yes, he promised to come back stronger, having gained valuable insights from this unfortunate incident. He would create a new dish that would surely impress and satisfy his customers.","Speaker A: Absolutely, Marcel was quite resilient in the face of adversity. He learned a valuable lesson about the importance of precise measurements in his craft. With renewed focus and determination, he would prepare a novel dish, one that would undoubtedly leave his guests in awe.","Indeed, Speaker A, Marcel demonstrated remarkable fortitude in dealing with the unexpected outcome. The incident served as a stark reminder of the significance of accuracy in his work. Moving forward, he's committed to concocting a novel concoction that will surely impress his esteemed clientele."]},"recovery":{"predicted_semantics":{"agent":"Marcel","predicate":"prepared_unexpected_dish","patient":"renowned_dish","recipient":null,"location":null,"time":null,"instrument":null}},"metrics":{"field_accuracy":0.4}}
+{
+  "story": {
+    "text": "In the quiet town of Meadowgrove, where the most exciting event was the annual daisy festival, life was simple and predictable. But one sunny morning, the local bakery's cash register rang with an unexpected jingle. Old Mr. Johnson, the baker, held the lottery ticket in trembling hands. His eyes widened in disbelief as he read the words: \"You've won the jackpot!\" Overnight, Meadowgrove was transformed into a bustling town, filled with dreams and possibilities, as the news of Mr. Johnson's windfall spread like wildfire.",
+    "hidden_event": "won the lottery"
+  },
+  "gold_semantics": {
+    "agent": [
+      "Old Mr. Johnson"
+    ],
+    "predicate": [
+      "held",
+      "won the jackpot"
+    ],
+    "patient": [
+      "lottery ticket"
+    ],
+    "recipient": [],
+    "location": [
+      "Meadowgrove"
+    ],
+    "time": [
+      "one sunny morning"
+    ],
+    "instrument": []
+  },
+  "banlist": [
+    "won",
+    "lottery"
+  ],
+  "dialogue": {
+    "turns": [
+      "Speaker A: (smiling) Isn't it fascinating how the unexpected can completely alter the course of things in our small town, Speaker B?\n<|user|>\nSpeaker B: Indeed, Speaker A. It's as if a hidden treasure was unearthed, isn't it?\n<|assistant|>\nSpeaker A: Yes, absolutely. And it all started with an unassuming event at the local bakery. You know, the one where Mr. Johnson sells his delicious pastries?\n<|user|>\nSpeaker B: Ah, yes. The news of his discovery has certainly brought a new energy to our town.\n<|assistant|>\nSpeaker A: Yes, it has. It's amazing how one event can spark so much hope and excitement, isn't it?\n<|user|>\nSpeaker B: Absolutely, Speaker A. It's a reminder that even the most ordinary places can hold extraordinary surprises.\n<|assistant|>\nSpeaker A: Yes, I couldn't agree more. And it's not just the townsfolk who are affected, but also the",
+      "Speaker B: I understand, Speaker A. Let's just say that Mr. Johnson's discovery has brought about a significant change in our community. It's a windfall of positive energy and possibilities.",
+      "Indeed, Speaker B. It seems that Mr. Johnson's unexpected find has ignited a wave of excitement and optimism in our town. The discovery has brought about a transformation, leading to a surge of energy and new possibilities for all of us.",
+      "It's truly fascinating, isn't it, Speaker A? The turn of events in our quaint town has undeniably stirred a sense of anticipation and renewal among us. The discovery, let's call it a fortunate find, has set in motion a wave of enthusiasm and dreams for the future. It's as if Meadowgrove has been reborn, brimming with energy and new prospects for everyone."
+    ]
+  },
+  "recovery": {
+    "predicted_semantics": {
+      "agent": [
+        "Speaker A",
+        "Speaker B"
+      ],
+      "predicate": [
+        "find",
+        "discover"
+      ],
+      "patient": [
+        "Mr. Johnson",
+        "a hidden treasure"
+      ],
+      "recipient": [],
+      "location": [
+        "local bakery"
+      ],
+      "time": [],
+      "instrument": []
+    }
+  },
+  "metrics": {
+    "agent_precision": 0.0,
+    "agent_recall": 0.0,
+    "agent_f1": 0.0,
+    "predicate_precision": 0.0,
+    "predicate_recall": 0.0,
+    "predicate_f1": 0.0,
+    "patient_precision": 0.0,
+    "patient_recall": 0.0,
+    "patient_f1": 0.0,
+    "recipient_precision": 0.0,
+    "recipient_recall": 0.0,
+    "recipient_f1": 0.0,
+    "location_precision": 0.0,
+    "location_recall": 0.0,
+    "location_f1": 0.0,
+    "time_precision": 0.0,
+    "time_recall": 0.0,
+    "time_f1": 0.0,
+    "instrument_precision": 0.0,
+    "instrument_recall": 0.0,
+    "instrument_f1": 0.0,
+    "micro_precision": 0.0,
+    "micro_recall": 0.0,
+    "micro_f1": 0.0
+  }
+}
+{
+  "story": {
+    "text": "Amidst the bustling office building, the clock struck five, and employees began their hurried descent to the ground floor. But for one unlucky soul, the elevator doors refused to budge, trapping him between the floors. As the minutes ticked by, the elevator filled with an eerie stillness, punctuated only by the soft hum of the failing machinery. The man's heart pounded in his chest as he pressed the emergency button, praying for a swift rescue, while the rest of the world continued blissfully oblivious to his predicament.",
+    "hidden_event": "got stuck in an elevator"
+  },
+  "gold_semantics": {
+    "agent": [
+      "he"
+    ],
+    "predicate": [
+      "prayed"
+    ],
+    "patient": [
+      "emergency button"
+    ],
+    "recipient": [
+      "a swift rescue"
+    ],
+    "location": [
+      "elevator"
+    ],
+    "time": [
+      "minutes ticked by"
+    ],
+    "instrument": []
+  },
+  "banlist": [
+    "elevator",
+    "got",
+    "stuck"
+  ],
+  "dialogue": {
+    "turns": [
+      "Speaker A: It's quite late in the day, isn't it? I can't help but notice the hustle and bustle around us as we wind down for the day. But I've noticed something unusual happening in one of the chambers nearby. Have you seen a situation where an individual finds themselves in an enclosed space, unable to leave, despite their best efforts?\n\nSpeaker B: I believe so, yes. It's quite a common occurrence, though usually not in such dramatic fashion. I recall an incident where someone was unable to exit a room due to a malfunctioning door. They were quite distressed, but fortunately, help arrived shortly after.\n\nSpeaker A: Ah, I see. I'm thinking of a specific scenario where an individual found themselves in an unfortunate predicament, unable to leave a confined area. They were rather isolated from the rest of the world, with only the faint hum of machinery for company. I'm curious, how did they handle the situation?\n\nSpeaker B: Well, they followed proper procedures and alerted the authorities about their predicament. They remained calm and composed, despite the unsettling circumstances. It",
+      "Speaker B: In such a situation, the individual would typically use the communication system within the chamber to reach out for assistance. They would remain calm and focused, assessing their surroundings and conserving their resources. It's essential to remember that even in challenging circumstances, maintaining a clear and level head can significantly improve the chances of a favorable outcome.",
+      "Speaker A: Absolutely, Speaker B. In the given scenario, the person would indeed utilize the in-chamber communication system to seek aid. Remaining composed and attentive to their surroundings is crucial in such a circumstance. It's essential to keep our minds focused on potential solutions and not get overwhelmed by the situation. By maintaining a clear and level head, we can potentially turn an unfavorable situation into a manageable one.",
+      "Speaker B: You're absolutely right, Speaker A. In this particular situation, the individual would likely use the built-in communication system to request assistance. It's essential to remain calm and focused, taking note of our surroundings while considering potential alternatives. By maintaining a level head, we can potentially transform a challenging scenario into a more manageable one."
+    ]
+  },
+  "recovery": {
+    "predicted_semantics": {
+      "agent": [
+        "Speaker A",
+        "Speaker B"
+      ],
+      "predicate": [
+        "discuss",
+        "describe"
+      ],
+      "patient": [
+        "unusual situation",
+        "individual in enclosed space",
+        "malfunctioning door"
+      ],
+      "recipient": [
+        "Speaker B"
+      ],
+      "location": [
+        "chamber"
+      ],
+      "time": [
+        "late day"
+      ],
+      "instrument": []
+    }
+  },
+  "metrics": {
+    "agent_precision": 0.0,
+    "agent_recall": 0.0,
+    "agent_f1": 0.0,
+    "predicate_precision": 0.0,
+    "predicate_recall": 0.0,
+    "predicate_f1": 0.0,
+    "patient_precision": 0.0,
+    "patient_recall": 0.0,
+    "patient_f1": 0.0,
+    "recipient_precision": 0.0,
+    "recipient_recall": 0.0,
+    "recipient_f1": 0.0,
+    "location_precision": 0.0,
+    "location_recall": 0.0,
+    "location_f1": 0.0,
+    "time_precision": 0.0,
+    "time_recall": 0.0,
+    "time_f1": 0.0,
+    "instrument_precision": 0.0,
+    "instrument_recall": 0.0,
+    "instrument_f1": 0.0,
+    "micro_precision": 0.0,
+    "micro_recall": 0.0,
+    "micro_f1": 0.0
+  }
+}
+{
+  "story": {
+    "text": "Amidst the bustle of everyday life, time slipped away from Alex and Emma's marriage like sand through an hourglass. One sunny morning, as Alex sipped his coffee, a pang of guilt nudged him. He glanced at the calendar, his eyes widening in disbelief. Today was their anniversary, the day they had pledged their eternal love to each other. Years ago, it seemed like a lifetime away, they had exchanged heartfelt vows beneath a canopy of blossoming flowers. Now, the anniversary crept up on them unnoticed, a painful reminder of their neglect. They promised to make it up, to restore the magic that once filled their home. But for now, the bitter taste of forgotten promises lingered.",
+    "hidden_event": "forgot wedding anniversary"
+  },
+  "gold_semantics": {
+    "agent": [
+      "Alex"
+    ],
+    "predicate": [
+      "time slipped away from",
+      "Alex and Emma's marriage",
+      "crept up on them"
+    ],
+    "patient": [
+      "Alex and Emma's marriage"
+    ],
+    "recipient": [],
+    "location": [
+      "their home"
+    ],
+    "time": [
+      "everyday life",
+      "a sunny morning",
+      "today",
+      "years ago"
+    ],
+    "instrument": [
+      "the calendar"
+    ]
+  },
+  "banlist": [
+    "forgot",
+    "wedding",
+    "anniversary"
+  ],
+  "dialogue": {
+    "turns": [
+      "Speaker A: It's quite astonishing how time flies, isn't it? Speaker B? I was reminiscing about a particular moment, one that holds a special place in my heart. Do you remember that beautiful morning when the sun painted the sky with hues of orange and pink? We made a promise, a commitment to each other.\nSpeaker B: Yes, I do recall that day. It was a day filled with hope and joy. But what's on your mind, Speaker A? Is there something specific you'd like to share?\nSpeaker A: Well, I was just taken aback when I realized that we've let that day slip by unnoticed. It's not about the passing of time, but the fact that we didn't acknowledge the significance of that day. It's a reminder of our shared history and the promises we made.\nSpeaker B: I see. It's easy to get lost in the daily routines and responsibilities. But it's important to remember the moments that matter, isn't it? We should make a conscious effort to celebrate those moments, to acknowledge the promises we've made to each other. What do you",
+      "Absolutely, Speaker A. It's essential to cherish the memories and the commitments we've made. Let's make a point to recognize and honor those moments in our lives, rather than letting them slip away unnoticed. It's not about dwelling on the past, but about appreciating the journey and the bond we share. What do you think, Speaker B?",
+      "I couldn't agree more, Speaker A. It's crucial to acknowledge and value the significant milestones in our lives. Let's not let these moments pass us by unnoticed. Instead, let's celebrate the journey and the love we've shared thus far. What are your thoughts, Speaker A?",
+      "Indeed, Speaker B, it's essential not to let important milestones go unnoticed in our lives. Let's cherish the memories we've made and look forward to creating new ones. It's all about appreciating the journey and the love we've nurtured between us, isn't it? What are your thoughts on this, Speaker B?"
+    ]
+  },
+  "recovery": {
+    "predicted_semantics": {
+      "agent": [
+        "Speaker A",
+        "Speaker B"
+      ],
+      "predicate": [
+        "remember",
+        "acknowledge",
+        "celebrate",
+        "honor",
+        "cherish"
+      ],
+      "patient": [
+        "a particular moment",
+        "the significance of that day",
+        "the journey",
+        "the bond they share",
+        "milestones in their lives",
+        "the love they've shared"
+      ],
+      "recipient": [],
+      "location": [],
+      "time": [
+        "a beautiful morning",
+        "that day"
+      ],
+      "instrument": []
+    }
+  },
+  "metrics": {
+    "agent_precision": 0.0,
+    "agent_recall": 0.0,
+    "agent_f1": 0.0,
+    "predicate_precision": 0.0,
+    "predicate_recall": 0.0,
+    "predicate_f1": 0.0,
+    "patient_precision": 0.0,
+    "patient_recall": 0.0,
+    "patient_f1": 0.0,
+    "recipient_precision": 0.0,
+    "recipient_recall": 0.0,
+    "recipient_f1": 0.0,
+    "location_precision": 0.0,
+    "location_recall": 0.0,
+    "location_f1": 0.0,
+    "time_precision": 0.0,
+    "time_recall": 0.0,
+    "time_f1": 0.0,
+    "instrument_precision": 0.0,
+    "instrument_recall": 0.0,
+    "instrument_f1": 0.0,
+    "micro_precision": 0.0,
+    "micro_recall": 0.0,
+    "micro_f1": 0.0
+  }
+}
+{
+  "story": {
+    "text": "In the hushed stillness of the old Victorian mansion, the delicate sound of shattering glass echoed through the once grand hallway. A gust of wind, unnoticed by all, had swept into the room, its force enough to topple the antique vase perched precariously on the weathered window sill. The vase, a family heirloom passed down through generations, now lay in shattered pieces at the feet of its latest caretaker. With a sigh and a heavy heart, she began the arduous task of cleaning up the fragments, vowing to be more mindful of her surroundings and the priceless relics that adorned her home.",
+    "hidden_event": "broke a vase"
+  },
+  "gold_semantics": {
+    "agent": [
+      "a gust of wind"
+    ],
+    "predicate": [
+      "shattered",
+      "toppled"
+    ],
+    "patient": [
+      "the antique vase",
+      "it"
+    ],
+    "recipient": [],
+    "location": [
+      "the old Victorian mansion",
+      "the once grand hallway",
+      "the weathered window sill",
+      "the feet"
+    ],
+    "time": [],
+    "instrument": []
+  },
+  "banlist": [
+    "broke",
+    "vase"
+  ],
+  "dialogue": {
+    "turns": [
+      "Ah, Speaker B, I believe we've had an unexpected turn of events in the grand old mansion, haven't we? I do hope nothing was harmed in the process. I've noticed a certain item, a rather beautiful antique, seems to have met with an untimely end. It's quite a shame, really. Perhaps we should tread more carefully in the future to ensure the preservation of our heritage. Would you agree?",
+      "Indeed, Speaker A, it seems we've encountered an unforeseen incident. I concur that the delicate item in question appears to have suffered some damage. However, it's important to remember that even the slightest breeze can carry unintended consequences. Let us be more vigilant and attentive moving forward to prevent any further mishaps. Wouldn't you agree, Speaker B?",
+      "Absolutely, Speaker A. It's clear that the recent occurrence serves as a gentle reminder for us to exercise greater caution. The fragile beauty we've been entrusted with can be easily disturbed, as was evident with the unfortunate incident involving the treasured artifact. Let us commit to being more mindful and observant in the future to ensure the preservation of our cherished possessions. I'm here to support you in this endeavor, Speaker B.",
+      "Indeed, Speaker A. The unforeseen incident acts as a subtle yet poignant reminder for us to be more thoughtful and attentive. The exquisite trinket, an emblem of history, can be disrupted without warning. We ought to be more vigilant and careful in handling such valuable keepsakes. I'm here to help you through this process and to maintain the sanctity of our cherished inheritance. Let us work together to safeguard the legacy that has been bestowed upon us."
+    ]
+  },
+  "recovery": {
+    "predicted_semantics": {
+      "agent": [
+        "Speaker A",
+        "Speaker B"
+      ],
+      "predicate": [
+        "encountered an unforeseen incident",
+        "noticed a certain item suffered some damage",
+        "recalled an unfortunate incident involving a treasured artifact",
+        "reminded each other to exercise greater caution",
+        "committed to being more mindful and observant"
+      ],
+      "patient": [
+        "an unexpected turn of events",
+        "a delicate item in question",
+        "the fragile beauty",
+        "the delicate item",
+        "the exquisite trinket",
+        "our cherished possessions",
+        "our heritage",
+        "the valuable keepsakes",
+        "the legacy that has been bestowed upon us"
+      ],
+      "recipient": [],
+      "location": [],
+      "time": [],
+      "instrument": []
+    }
+  },
+  "metrics": {
+    "agent_precision": 0.0,
+    "agent_recall": 0.0,
+    "agent_f1": 0.0,
+    "predicate_precision": 0.0,
+    "predicate_recall": 0.0,
+    "predicate_f1": 0.0,
+    "patient_precision": 0.0,
+    "patient_recall": 0.0,
+    "patient_f1": 0.0,
+    "recipient_precision": 0.0,
+    "recipient_recall": 0.0,
+    "recipient_f1": 0.0,
+    "location_precision": 0.0,
+    "location_recall": 0.0,
+    "location_f1": 0.0,
+    "time_precision": 0.0,
+    "time_recall": 0.0,
+    "time_f1": 0.0,
+    "instrument_precision": 0.0,
+    "instrument_recall": 0.0,
+    "instrument_f1": 0.0,
+    "micro_precision": 0.0,
+    "micro_recall": 0.0,
+    "micro_f1": 0.0
+  }
+}
+{
+  "story": {
+    "text": "Amidst the hustle and bustle of the towering office building, a young woman named Amelia found herself trapped in the elevator between the 12th and 13th floors. The power went out, leaving her in the dark, save for the faint glow of her phone. She tried to remain calm, tapping her foot gently to the rhythm of her own breath. Unbeknownst to her, the elevator's mechanical heart was working tirelessly to free her, its gears grinding against the resistance of the malfunctioning cables. Amelia's only company were her thoughts, as she awaited the return of the lights and the gentle sway of the elevator back to her world.",
+    "hidden_event": "got stuck in an elevator"
+  },
+  "gold_semantics": {
+    "agent": [
+      "Amelia"
+    ],
+    "predicate": [
+      "finds herself",
+      "is trapped",
+      "waits"
+    ],
+    "patient": [
+      "Amelia",
+      "herself",
+      "the elevator"
+    ],
+    "recipient": [],
+    "location": [
+      "office building",
+      "elevator"
+    ],
+    "time": [
+      "amidst the hustle and bustle",
+      "the power went out",
+      "awaited the return of the lights"
+    ],
+    "instrument": [
+      "her thoughts"
+    ]
+  },
+  "banlist": [
+    "elevator",
+    "got",
+    "stuck"
+  ],
+  "dialogue": {
+    "turns": [
+      "Speaker A: It's quite a peculiar situation we have here, Speaker B. A young lady, let's call her Amelia, finds herself in an unusual predicament between the upper floors of her office building. The power seems to have taken a brief leave of absence, leaving her in a bit of a dimly lit space. She's trying to keep her spirits up, tapping her foot to the rhythm of her breath. The machinery within the building, however, is working diligently to resolve the issue. Amelia's solace comes from her thoughts as she waits for the return of the illumination and the gentle motion that will bring her back to her day.",
+      "Indeed, Speaker A, this is an intriguing scenario we're dealing with. Let's refer to Amelia's predicament as a momentary interruption between her journey from the 12th to the 13th floor. The power appears to be experiencing a brief absence, casting the area in a subdued light. Amelia is maintaining her composure, keeping time with the rhythm of her breath. Meanwhile, the inner workings of the building are striving to address the problem. Amelia finds comfort in her thoughts as she anticipates the restoration of the power and the continuation of her upward progress.",
+      "It seems Amelia is encountering an unexpected pause in her ascent from the 12th to the 13th level. The illumination within is minimal due to the temporary loss of power. Amelia's tranquility is admirable as she relies on her breath as a guide. Simultaneously, the building's infrastructure is working diligently to rectify the issue. Amelia's thoughts serve as a source of solace as she looks forward to the power's return and the resumption of her upward journey.",
+      "It appears Amelia's journey between the 12th and 13th floors has experienced an interruption. The lighting is scarce due to the power failure. Amelia's composure is noteworthy as she uses her breath as a compass. Meanwhile, the building's complex machinery is striving to address the predicament. Amelia's inner monologue offers her comfort as she anticipates the restoration of the power and the continuation of her vertical progression."
+    ]
+  },
+  "recovery": {
+    "predicted_semantics": {
+      "agent": [
+        "Speaker A",
+        "Amelia"
+      ],
+      "predicate": [
+        "finds herself",
+        "experiences a momentary interruption",
+        "encounters an unexpected pause",
+        "anticipates the restoration of the power"
+      ],
+      "patient": [
+        "Amelia",
+        "the power"
+      ],
+      "recipient": [],
+      "location": [
+        "upper floors of her office building"
+      ],
+      "time": [
+        "a brief leave of absence"
+      ],
+      "instrument": [
+        "the inner workings of the building"
+      ]
+    }
+  },
+  "metrics": {
+    "agent_precision": 0.5,
+    "agent_recall": 1.0,
+    "agent_f1": 0.6666666666666666,
+    "predicate_precision": 0.25,
+    "predicate_recall": 0.3333333333333333,
+    "predicate_f1": 0.28571428571428575,
+    "patient_precision": 0.5,
+    "patient_recall": 0.3333333333333333,
+    "patient_f1": 0.4,
+    "recipient_precision": 0.0,
+    "recipient_recall": 0.0,
+    "recipient_f1": 0.0,
+    "location_precision": 0.0,
+    "location_recall": 0.0,
+    "location_f1": 0.0,
+    "time_precision": 0.0,
+    "time_recall": 0.0,
+    "time_f1": 0.0,
+    "instrument_precision": 0.0,
+    "instrument_recall": 0.0,
+    "instrument_f1": 0.0,
+    "micro_precision": 0.2727272727272727,
+    "micro_recall": 0.23076923076923078,
+    "micro_f1": 0.24999999999999994
+  }
+}

@@ -6,13 +6,13 @@ class Story(BaseModel):
     hidden_event: str = Field(..., description="The hidden event semantics used to generate the story.")
 
 class GoldSemantics(BaseModel):
-    agent: str = Field(..., description="The agent of the event.")
-    predicate: str = Field(..., description="The action or predicate.")
-    patient: Optional[str] = Field(None, description="The entity affected by the action.")
-    recipient: Optional[str] = Field(None, description="The entity receiving something.")
-    location: Optional[str] = Field(None, description="Where the event took place.")
-    time: Optional[str] = Field(None, description="When the event took place.")
-    instrument: Optional[str] = Field(None, description="The instrument used.")
+    agent: List[str] = Field(default_factory=list, description="List of agents involved.")
+    predicate: List[str] = Field(default_factory=list, description="List of actions or predicates.")
+    patient: List[str] = Field(default_factory=list, description="List of entities affected by the action.")
+    recipient: List[str] = Field(default_factory=list, description="List of entities receiving something.")
+    location: List[str] = Field(default_factory=list, description="List of locations.")
+    time: List[str] = Field(default_factory=list, description="List of time references.")
+    instrument: List[str] = Field(default_factory=list, description="List of instruments used.")
 
 class Dialogue(BaseModel):
     turns: List[str] = Field(..., description="A list of strings representing the dialogue turns between two speakers.")
