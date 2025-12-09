@@ -53,7 +53,7 @@ Recovered: {
 }
 
 --- Sample 3 ---
-Story: Once upon a time, [MOCK STORY] based on Write a story about: missed the train. The end.
+Story: Once upon a time, [MOCK STORY] based on Write a story about: adopted a stray cat. The end.
 Gold: {
   "agent": "MockAgent",
   "predicate": "MockAction",
@@ -80,7 +80,169 @@ Recovered: {
 }
 
 --- Sample 4 ---
+Story: Once upon a time, [MOCK STORY] based on Write a story about: cooked a bad meal. The end.
+Gold: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+Dialogue: [
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O..."
+]
+Recovered: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+
+--- Sample 5 ---
 Story: Once upon a time, [MOCK STORY] based on Write a story about: forgot wedding anniversary. The end.
+Gold: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+Dialogue: [
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O..."
+]
+Recovered: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+
+--- Sample 6 ---
+Story: Once upon a time, [MOCK STORY] based on Write a story about: missed the train. The end.
+Gold: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+Dialogue: [
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O..."
+]
+Recovered: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+
+--- Sample 7 ---
+Story: Once upon a time, [MOCK STORY] based on Write a story about: forgot wedding anniversary. The end.
+Gold: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+Dialogue: [
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O..."
+]
+Recovered: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+
+--- Sample 8 ---
+Story: Once upon a time, [MOCK STORY] based on Write a story about: found a lost wallet. The end.
+Gold: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+Dialogue: [
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O..."
+]
+Recovered: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+
+--- Sample 9 ---
+Story: Once upon a time, [MOCK STORY] based on Write a story about: found a lost wallet. The end.
+Gold: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+Dialogue: [
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O...",
+  "Hello, I am a mock speaker. I am responding to Context: O..."
+]
+Recovered: {
+  "agent": "MockAgent",
+  "predicate": "MockAction",
+  "patient": "MockPatient",
+  "recipient": null,
+  "location": "MockPlace",
+  "time": "MockTime",
+  "instrument": null
+}
+
+--- Sample 10 ---
+Story: Once upon a time, [MOCK STORY] based on Write a story about: broke a vase. The end.
 Gold: {
   "agent": "MockAgent",
   "predicate": "MockAction",

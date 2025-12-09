@@ -15,7 +15,14 @@ def worker_process(worker_id: int, gpu_id: int, iterations: int, model_name: str
     from pipeline import GenerationPipeline
     
     # Initialize Model on specific device (or mock)
-    device = f"cuda:{gpu_id}" if not mock else "cpu"
+    # vLLM will attempt to use all visible GPUs, so we restrict it to just one
+    if not mock:
+        os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_id)
+        # With CUDA_VISIBLE_DEVICES set, the device inside the process is always "cuda:0"
+        device = "cuda:0"
+    else:
+        device = "cpu"
+
     try:
         llm = LLMWrapper(model_name, device=device, mock=mock)
         pipeline = GenerationPipeline(llm)

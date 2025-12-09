@@ -20,6 +20,8 @@ class GenerationPipeline:
 
             # Step 2: Gold Extraction
             gold_json = self._extract_gold(story_text)
+            print("story_text", story_text)
+            print("gold_json", gold_json)
             gold_semantics = GoldSemantics(**gold_json)
 
             # Step 3: Banlist Creation
@@ -32,6 +34,7 @@ class GenerationPipeline:
 
             # Step 5: Recovery
             recovery_json = self._recover_semantics(dialogue)
+            print(recovery_json)
             recovery = Recovery(predicted_semantics=GoldSemantics(**recovery_json))
 
             # Metrics
@@ -54,10 +57,16 @@ class GenerationPipeline:
         prompt = f"Write a story about: {hint}"
         return self.llm.generate(SYSTEM_PROMPTS["storyteller"], prompt)
 
-    def _extract_gold(self, story: str) -> dict:
+    def _extract_gold(self, story: str, max_retries: int = 3) -> dict:
         prompt = f"Story: {story}\n\nExtract the JSON semantics:"
-        raw = self.llm.generate(SYSTEM_PROMPTS["gold_extractor"], prompt)
-        return self._parse_json(raw)
+        for _ in range(max_retries):
+            raw = self.llm.generate(SYSTEM_PROMPTS["gold_extractor"], prompt)
+            data = self._parse_json(raw)
+            # Basic validation: check for required keys
+            if data and "agent" in data and "predicate" in data:
+                return data
+        # Return empty if all retries fail, will likely cause downstream error but handled by try/except
+        return {}
 
     def _generate_dialogue(self, story: str, banlist: list, max_retries: int = 3) -> Optional[Dialogue]:
         banlist_str = ", ".join(banlist)
@@ -95,20 +104,39 @@ class GenerationPipeline:
             
         return None
 
-    def _recover_semantics(self, dialogue: Dialogue) -> dict:
+    def _recover_semantics(self, dialogue: Dialogue, max_retries: int = 3) -> dict:
         # Join turns for the input
         conversation_text = "\n".join(dialogue.turns)
         prompt = f"Dialogue:\n{conversation_text}\n\nPredict the hidden event semantics as JSON:"
-        raw = self.llm.generate(SYSTEM_PROMPTS["recovery_agent"], prompt)
-        return self._parse_json(raw)
+        
+        for _ in range(max_retries):
+            raw = self.llm.generate(SYSTEM_PROMPTS["recovery_agent"], prompt)
+            data = self._parse_json(raw)
+            # Basic validation
+            if data and "agent" in data and "predicate" in data:
+                return data
+                
+        return {}
 
     def _parse_json(self, raw: str) -> dict:
-        # Basic cleanup to handle markdown json blocks usually returned by LLMs
-        cleaned = raw.replace("```json", "").replace("```", "").strip()
+        import re
+        # Try to find a JSON block in markdown
+        match = re.search(r"```json(.*?)```", raw, re.DOTALL)
+        if match:
+            cleaned = match.group(1).strip()
+        else:
+            # If no markdown block, try to find the first { and last }
+            # This handles cases where the model returns just valid JSON or JSON with text around it
+            try:
+                start = raw.index('{')
+                end = raw.rindex('}') + 1
+                cleaned = raw[start:end]
+            except ValueError:
+                cleaned = raw.strip()
+
         try:
             return json.loads(cleaned)
         except json.JSONDecodeError:
-            # Fallback for simple errors or partial generation
-            # In a real system, we might use a parser library or regex extract
-            # returning empty dict for resilience here
+            # Fallback: try to repair common issues if needed or just return empty
             return {}
+
