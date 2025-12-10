@@ -18,23 +18,35 @@ class LLMWrapper:
             # We assume CUDA_VISIBLE_DEVICES is set correctly by the worker.
             self.model = LLM(
                 model=model_name,
-                quantization="awq" if "awq" in model_name.lower() else None, 
                 trust_remote_code=True,
-                dtype="auto"
             )
+
             # No tokenizer needed explicitly for vLLM generation usually, 
             # but we can keep it if needed for checking tokens, though vLLM handles it.
             # We'll rely on vLLM's internal tokenization.
 
-    def generate(self, system_prompt: str, user_prompt: str, max_new_tokens: int = 256) -> str:
+    def generate(self, system_prompt: str, user_prompt: str, max_new_tokens: int = 4096) -> str:
         if self.mock:
             return self._mock_generate(system_prompt, user_prompt)
-        
+
         from vllm import SamplingParams
 
-        # Simple chat template construction
-        full_prompt = f"<|system|>\n{system_prompt}\n<|user|>\n{user_prompt}\n<|assistant|>\n"
-        
+        # Get the tokenizer associated with the vLLM model
+        tokenizer = self.model.get_tokenizer()
+
+        # Build messages in "chat" format
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        messages.append({"role": "user", "content": user_prompt})
+
+        # Use the tokenizer's default chat template
+        full_prompt = tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,  # adds the assistant prefix according to the template
+        )
+
         sampling_params = SamplingParams(
             max_tokens=max_new_tokens,
             temperature=0.7,
@@ -42,9 +54,12 @@ class LLMWrapper:
         )
 
         # vLLM generate returns a list of RequestOutput objects
-        outputs = self.model.generate([full_prompt], sampling_params, use_tqdm=False)
-        
-        # We only passed one prompt
+        outputs = self.model.generate(
+            [full_prompt],
+            sampling_params,
+            use_tqdm=False,
+        )
+
         generated_text = outputs[0].outputs[0].text
         return generated_text.strip()
 

@@ -88,25 +88,25 @@ class GenerationPipeline:
             p1 = f"Context: {story}. Banned words: {banlist_str}. You start the conversation."
             t1 = self.llm.generate(SYSTEM_PROMPTS["dialogue_speaker_1"], p1)
             if not check_banlist(t1, banlist): continue
-            turns.append(t1)
+            turns.append("[Speaker A]: " + t1)
             
             # Speaker B
             p2 = f"Context: {story}. Previous turn: {t1}. Banned words: {banlist_str}. Reply."
             t2 = self.llm.generate(SYSTEM_PROMPTS["dialogue_speaker_2"], p2)
             if not check_banlist(t2, banlist): continue
-            turns.append(t2)
+            turns.append("[Speaker B]: " + t2)
             
             # Speaker A
             p3 = f"Context: {story}. Previous turn: {t2}. Banned words: {banlist_str}. Reply."
             t3 = self.llm.generate(SYSTEM_PROMPTS["dialogue_speaker_1"], p3)
             if not check_banlist(t3, banlist): continue
-            turns.append(t3)
+            turns.append("[Speaker A]: " + t3)
             
              # Speaker B
             p4 = f"Context: {story}. Previous turn: {t3}. Banned words: {banlist_str}. Reply."
             t4 = self.llm.generate(SYSTEM_PROMPTS["dialogue_speaker_2"], p4)
             if not check_banlist(t4, banlist): continue
-            turns.append(t4)
+            turns.append("[Speaker B]: " + t4)
             
             return Dialogue(turns=turns)
             

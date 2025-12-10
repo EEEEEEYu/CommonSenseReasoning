@@ -35,9 +35,44 @@ def worker_process(worker_id: int, gpu_id: int, iterations: int, model_name: str
     # List of simple event hints for random selection
     # In a real app, this might come from a file or generator
     events = [
-        "missed the train", "found a lost wallet", "forgot wedding anniversary",
-        "won the lottery", "broke a vase", "adopted a stray cat",
-        "cooked a bad meal", "got stuck in an elevator"
+        "missed the train",
+        "found a lost wallet",
+        "forgot wedding anniversary",
+        "won the lottery",
+        "broke a vase",
+        "adopted a stray cat",
+        "cooked a bad meal",
+        "got stuck in an elevator",
+        "lost my keys",
+        "met an old friend",
+        "spilled coffee on my shirt",
+        "got locked out of the house",
+        "phone battery died",
+        "missed an important call",
+        "found a $20 bill on the street",
+        "burned the toast",
+        "broke my phone screen",
+        "got caught in the rain without an umbrella",
+        "overslept for work",
+        "left my wallet at home",
+        "missed a flight",
+        "finally passed the driving test",
+        "won a small prize in a raffle",
+        "forgot to submit an assignment",
+        "parked in the wrong spot and got a ticket",
+        "dropped my ice cream",
+        "received an unexpected gift",
+        "accidentally sent a message to the wrong person",
+        "lost my luggage at the airport",
+        "baked a cake that collapsed",
+        "met a celebrity by accident",
+        "slipped on the sidewalk but didn’t get hurt",
+        "left the house with mismatched shoes",
+        "ran into my ex at the supermarket",
+        "got a surprise promotion",
+        "sprained my ankle while jogging",
+        "won a free coffee",
+        "forgot where I parked the car"
     ]
 
     success_count = 0
