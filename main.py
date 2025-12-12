@@ -14,8 +14,11 @@ def main():
     parser = argparse.ArgumentParser(description="NLP Data Generation Pipeline")
     parser.add_argument("--model", type=str, default="mistralai/Mistral-7B-Instruct-v0.2", help="Model name or path")
     parser.add_argument("--num_gpus", type=int, default=1, help="Number of GPUs to use")
-    parser.add_argument("--iterations", type=int, default=10, help="Total iterations across all GPUs")
+    parser.add_argument("--iterations", type=int, default=10, help="Total iterations across all GPUs (Generation mode)")
     parser.add_argument("--mock", action="store_true", help="Run in mock mode (no GPU required)")
+    parser.add_argument("--mode", type=str, default="generate", choices=["generate", "recover"], help="Pipeline mode")
+    parser.add_argument("--input_file", type=str, default=None, help="Input file for recovery mode")
+    parser.add_argument("--k", type=int, default=3, help="Number of guesses for recovery")
     
     args = parser.parse_args()
 
@@ -26,9 +29,11 @@ def main():
     iters_per_worker = args.iterations // args.num_gpus
     processes = []
     
-    print(f"Starting {args.num_gpus} workers. Total iterations: {args.iterations}")
+    print(f"Starting {args.num_gpus} workers. Mode: {args.mode}")
 
     # Cleanup old output files to ensure we don't read stale data
+    # Only cleanup if generating, or maybe always? 
+    # If recovering, we write to output_gpu_X.jsonl too, so we should clean them.
     for i in range(args.num_gpus):
         out_file = f"output_gpu_{i}.jsonl"
         if os.path.exists(out_file):
@@ -37,7 +42,7 @@ def main():
     for i in range(args.num_gpus):
         p = multiprocessing.Process(
             target=worker_process,
-            args=(i, i, iters_per_worker, args.model, args.mock)
+            args=(i, i, iters_per_worker, args.model, args.mock, args.mode, args.input_file, args.k)
         )
         p.start()
         processes.append(p)
@@ -72,13 +77,17 @@ def main():
                             
                             out.write(f"--- Sample {count+1} ---\n")
                             out.write(f"Story: {data['story']['text']}\n")
-                            out.write(f"Gold: {json.dumps(data['gold_semantics'], indent=2, sort_keys=True)}\n")
-                            out.write(f"Dialogue: {json.dumps(data['dialogue']['turns'], indent=2, sort_keys=True)}\n")
-                            out.write(f"Recovered: {json.dumps(data['recovery']['predicted_semantics'], indent=2, sort_keys=True)}\n")
+                            out.write(f"Hidden Event: {data['gold_semantics']['hidden_event']}\n")
+                            out.write(f"Protagonist: {data['gold_semantics']['protagonist_name']}\n")
+                            out.write(f"Dialogue: {json.dumps(data['dialogue']['turns'], indent=2)}\n")
+                            
+                            if 'recovery' in data and data['recovery']:
+                                out.write(f"Guesses: {json.dumps(data['recovery']['guesses'], indent=2)}\n")
+                                out.write(f"Success: {data['recovery']['success']}\n")
+                            
                             out.write("\n")
                             count += 1
                         except json.JSONDecodeError:
-                            # If parsing fails, try to skip to next possible object or stop
                             break
             if count >= 10: break
             
